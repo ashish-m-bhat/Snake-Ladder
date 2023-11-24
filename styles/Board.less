@@ -1,0 +1,67 @@
+.app-wrapper {
+    display: flex;
+    margin-top: 5%;
+}
+
+.player-turn {
+    position: relative;
+    left: 10rem;
+    color: white;
+}
+
+.tiles-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin-left: 10rem;
+}
+
+.eachTile-container {
+    height: 60px;
+    width: 9%;
+    background-color: black;
+    border: 1px solid white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.initialPlayers {
+    width: 5rem;
+    align-self: flex-end;
+    display: flex;
+    gap: 1rem;
+}
+
+.player {
+    width: 0;
+	height: 0;
+    border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid red;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player1 {
+    border-bottom: 50px solid blue;
+}
+
+.dice {
+    align-self: flex-end;
+    .value {
+        color: white;
+        font-size: 2rem;
+        font-weight: 200;
+        text-align: center;
+    }
+    img {
+        height: 100px;
+        width: 100px;
+        cursor: pointer;
+    }
+}
+
